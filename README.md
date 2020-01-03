@@ -31,10 +31,13 @@ Arzt, Steven, et al. "Flowdroid: Precise context, flow, field, object-sensitive 
 Enck, William, et al. "TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones." ACM Transactions on Computer Systems (TOCS) 32.2 (2014): 5.  
 
 ## Symbolic execution
+Godefroid, Patrice, Michael Y. Levin, and David Molnar. "SAGE: whitebox fuzzing for security testing." Communications of the ACM 55.3 (2012): 40-44.  
+Cadar, Cristian, and Koushik Sen. "Symbolic execution for software testing: three decades later." Commun. ACM 56.2 (2013): 82-90.  
 Cadar, Cristian, Daniel Dunbar, and Dawson R. Engler. "KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs." OSDI. Vol. 8. 2008.  
 Shoshitaishvili, Yan, et al. "Sok:(state of) the art of war: Offensive techniques in binary analysis." 2016 IEEE Symposium on Security and Privacy (SP). IEEE, 2016.  
 Chipounov, Vitaly, Volodymyr Kuznetsov, and George Candea. "S2E: A platform for in-vivo multi-path analysis of software systems." ACM SIGARCH Computer Architecture News. Vol. 39. No. 1. ACM, 2011.  
 Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic Execution." NDSS. Vol. 16. No. 2016. 2016.  
+Chipounov, Vitaly, et al. "Selective symbolic execution." Proceedings of the 5th Workshop on Hot Topics in System Dependability (HotDep). No. CONF. 2009.  
 
 ## Loop Analysis
 Xie, Xiaofei, et al. "Loopster: static loop termination analysis." Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering. ACM, 2017.  
