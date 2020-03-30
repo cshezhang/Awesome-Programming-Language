@@ -1,5 +1,5 @@
-# Awesome-Software-Engineering-and-Program-Language
-A curated list of Software Engineering and Program Language resources(Papers, Books, Courses, Tools).
+# Awesome-System-Research
+A curated list of Software Engineering, System Security, Computer System and Program Language research resources(Papers, Books, Courses, Tools).
 
 ## Register Allocation and SSA Form
 Sebastian Hack and Gerhard Goos. Optimal register allocation for SSA-form programs in polynomial time. In Information Processeing Letters 98(4): 150-155, 2006.  
@@ -107,6 +107,24 @@ Bichsel, Benjamin, et al. "Statistical deobfuscation of android applications." P
 Jingxuan He, Pesho Ivanov, Petar Tsankov, Veselin Raychev, and Martin Vechev. 2018. Debin: Predicting Debug Information in Stripped Binaries. In Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS ’18). Association for Computing Machinery, New York, NY, USA, 1667–1680.  
 
 Victor Chibotaru, Benjamin Bichsel, Veselin Raychev, and Martin Vechev. 2019. Scalable taint specification inference with big code. In Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2019). Association for Computing Machinery, New York, NY, USA, 760–774.  
+
+## Crash Consisitency
+Y Jiang, H Chen, F Qin, C Xu, X Ma, J Lu. Crash consistency validation made easy. In Proceedings of the Symposium on the Foundations of Software Engineering (FSE), 133--143, 2016.  
+
+M Zheng, J Tucek, F Qin, M Lillibridge. Understanding the robustness of SSDS under power fault. In Proceedings of the USENIX Conference on File and Storage Technologies (FAST), 271--284, 2013.  
+
+M Zheng, J Tucek, D Huang, F Qin, M Lillibridge, E S Yang, B W Zhao, S Singh. Torturing databases for fun and profit. In Proceedings of the Conference on Operating Systems Design and Implementation (OSDI), 449--464, 2014.  
+
+T S Pillai, V Chidambaram, R Alagappan, S Al-Kiswany, A C Arpaci-Dusseau, R H Arpaci-Dusseau. All file systems are not created equal: On the complexity of crafting crash-consistent applications. In Proceedings of the Conference on Operating Systems Design and Implementation (OSDI), 433--448, 2014.  
+
+J Yang, C Sar, D Engler. EXPLODE: A lightweight, general system for finding serious storage system errors. In Proceedings of the Conference on Operating Systems Design and Implementation (OSDI), 131--146, 2006.  
+
+Dongjie Chen,Yanyan Jiang, Chang Xu, Xiaoxing Ma, and Jian Lu.2020. Testing File System Implementations on Layered Models.In 42nd International Conference on Software Engineering (ICSE ’20), May 23–29, 2020, Seoul, Republic of Korea.
+
+## Code Difference
+Jean-Rémy Falleri, Floréal Morandat, Xavier Blanc, Matias Martinez, and Martin Monperrus. 2014. Fine-grained and accurate source code differencing. In Proceedings of the 29th ACM/IEEE international conference on Automated software engineering (ASE ’14). Association for Computing Machinery, New York, NY, USA, 313–324.  
+
+Rumen Paletov, Petar Tsankov, Veselin Raychev, and Martin Vechev. 2018. Inferring crypto API rules from code changes. In Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2018). Association for Computing Machinery, New York, NY, USA, 450–464.  
 
 ## Impossibility Results
 Sumit Gulwani, Ashish Tiwari. Assertion Checking over Combined Abstraction of Linear Arithmetic and Uninterpreted Functions. ESOP 2006, pages 279-293.  
