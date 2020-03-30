@@ -65,6 +65,9 @@ Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic E
 
 Chipounov, Vitaly, et al. "Selective symbolic execution." Proceedings of the 5th Workshop on Hot Topics in System Dependability (HotDep). No. CONF. 2009.  
 
+## Software Testing
+Y. Jia and M. Harman, "An Analysis and Survey of the Development of Mutation Testing," in IEEE Transactions on Software Engineering, vol. 37, no. 5, pp. 649-678, Sept.-Oct. 2011.  
+
 ## Program Repair
 Ghanbari, Ali, and Lingming Zhang. "PraPR: Practical Program Repair via Bytecode Mutation." 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019.  
 
