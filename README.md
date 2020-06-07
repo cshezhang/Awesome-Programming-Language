@@ -39,6 +39,8 @@ Saudel, Florent, and Jonathan Salwan. "Triton: A dynamic symbolic execution fram
 ## Pointer Analysis
 Nevin Heintze and Olivier Tardieu. Ultra-fast Aliasing Analysis using CLA: A Million Lines of C Code in a Second. In Proceedings of PLDI'01, pages 254-263.  
 
+Hua Yan, Yulei Sui, Shiping Chen, and Jingling Xue. 2018. Spatio-temporal context reduction: a pointer-analysis-based static approach for detecting use-after-free vulnerabilities. In Proceedings of the 40th International Conference on Software Engineering (ICSE ’18). Association for Computing Machinery, New York, NY, USA, 327–337.  
+
 Yue Li, Tian Tan, Anders Møller, and Yannis Smaragdakis. 2018. Precision-guided context sensitivity for pointer analysis. Proc. ACM Program. Lang. 2, OOPSLA, Article 141 (October 2018), 29 pages.  
 
 Tan, Tian, Yue Li, and Jingling Xue. "Efficient and precise points-to analysis: modeling the heap by merging equivalent automata." Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation. 2017.  
@@ -70,6 +72,8 @@ Y. Jia and M. Harman, "An Analysis and Survey of the Development of Mutation Tes
 
 ## Program Repair
 Ghanbari, Ali, and Lingming Zhang. "PraPR: Practical Program Repair via Bytecode Mutation." 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019.  
+
+X. Xu, Y. Sui, H. Yan and J. Xue, "VFix: Value-Flow-Guided Precise Program Repair for Null Pointer Dereferences," 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE), Montreal, QC, Canada, 2019, pp. 512-523, doi: 10.1109/ICSE.2019.00063.  
 
 Ming Wen, Junjie Chen, Rongxin Wu, Dan Hao, and Shing-Chi Cheung. 2018. Context-aware patch generation for better automated program repair. In ICSE (ICSE’18). ACM, 1-11.  
 
@@ -123,6 +127,9 @@ T S Pillai, V Chidambaram, R Alagappan, S Al-Kiswany, A C Arpaci-Dusseau, R H Ar
 J Yang, C Sar, D Engler. EXPLODE: A lightweight, general system for finding serious storage system errors. In Proceedings of the Conference on Operating Systems Design and Implementation (OSDI), 131--146, 2006.  
 
 Dongjie Chen,Yanyan Jiang, Chang Xu, Xiaoxing Ma, and Jian Lu.2020. Testing File System Implementations on Layered Models.In 42nd International Conference on Software Engineering (ICSE ’20), May 23–29, 2020, Seoul, Republic of Korea.
+
+## Code Similarity
+
 
 ## Code Difference
 Jean-Rémy Falleri, Floréal Morandat, Xavier Blanc, Matias Martinez, and Martin Monperrus. 2014. Fine-grained and accurate source code differencing. In Proceedings of the 29th ACM/IEEE international conference on Automated software engineering (ASE ’14). Association for Computing Machinery, New York, NY, USA, 313–324.  
