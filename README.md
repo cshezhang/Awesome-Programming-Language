@@ -1,4 +1,4 @@
-# Awesome-System-Research
+# Introduction
 A curated list of Software Engineering, System Security, Computer System and Program Language research resources(Papers, Books, Courses, Tools).
 
 ## Register Allocation and SSA Form
@@ -128,11 +128,14 @@ J Yang, C Sar, D Engler. EXPLODE: A lightweight, general system for finding seri
 
 Dongjie Chen,Yanyan Jiang, Chang Xu, Xiaoxing Ma, and Jian Lu.2020. Testing File System Implementations on Layered Models.In 42nd International Conference on Software Engineering (ICSE ’20), May 23–29, 2020, Seoul, Republic of Korea.
 
-## Code Similarity
+## Code Difference, Code Embeeding(Representation)
+Ke Wang and Zhendong Su. 2020. Blended, precise semantic program embeddings. In Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation(PLDI 2020). Association for Computing Machinery, New York, NY, USA, 121–134. 
 
+Yue Duan, Xuezixiang Li, Jinghan Wang, and Heng Yin, "DeepBinDiff: Learning Program-Wide Code Representations for Binary Diffing", NDSS'2020
 
-## Code Difference
-Jean-Rémy Falleri, Floréal Morandat, Xavier Blanc, Matias Martinez, and Martin Monperrus. 2014. Fine-grained and accurate source code differencing. In Proceedings of the 29th ACM/IEEE international conference on Automated software engineering (ASE ’14). Association for Computing Machinery, New York, NY, USA, 313–324.  
+Ding, Steven HH, Benjamin CM Fung, and Philippe Charland. "Asm2vec: Boosting static representation robustness for binary clone search against code obfuscation and compiler optimization." 2019 IEEE Symposium on Security and Privacy (SP). IEEE, 2019.
+
+Jean-Rémy Falleri, Floréal Morandat, Xavier Blanc, Matias Martinez, and Martin Monperrus. 2014. Fine-grained and accurate source code differencing. In Proceedings of the 29th ACM/IEEE international conference on Automated software engineering(ASE 2014). Association for Computing Machinery, New York, NY, USA, 313–324.  
 
 Rumen Paletov, Petar Tsankov, Veselin Raychev, and Martin Vechev. 2018. Inferring crypto API rules from code changes. In Proceedings of the 39th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2018). Association for Computing Machinery, New York, NY, USA, 450–464.  
 
