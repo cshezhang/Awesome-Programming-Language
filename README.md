@@ -2,30 +2,29 @@
 A curated list of Software Engineering, System Security, Computer System and Program Language research resources(Papers, Books, Courses, Tools).
 
 ## Register Allocation and SSA Form
-Sebastian Hack and Gerhard Goos. Optimal register allocation for SSA-form programs in polynomial time. In Information Processeing Letters 98(4): 150-155, 2006.  
+
+Sreedhar, Vugranam C., et al. "Translating out of static single assignment form." International Static Analysis Symposium. Springer, Berlin, Heidelberg, 1999.  
 
 Fernando Magno Quintao Pereira and Jens Palsberg. Register allocation via coloring of chordal graphs. In Proceedings of APLAS'05, Asian Symposium on Programming Languages and Systems, pages 315-329, Tsukuba, Japan, November 2005.  
+
+Sebastian Hack and Gerhard Goos. Optimal register allocation for SSA-form programs in polynomial time. In Information Processeing Letters 98(4): 150-155, 2006.  
 
 Fernando Magno Quintao Pereira and Jens Palsberg. Register allocation after classical SSA elimination is NP-complete. In Proceedings of FOSSACS'06, Foundations of Software Science and Computation Structures. Springer-Verlag (LNCS), Vienna, Austria, March 2006.  
 
 Vijay S. Menon, Neal Glew, Brian R. Murphy, Andrew McCreight, Tatiana Shpeisman, Ali-Reza Adl-Tabatabai, Leaf Petersen. A verifiable SSA program representation for aggressive compiler optimization. In Proceedings of POPL'06, pages 397-408.  
 
-## Static Analysis
-Sreedhar, Vugranam C., et al. "Translating out of static single assignment form." International Static Analysis Symposium. Springer, Berlin, Heidelberg, 1999.  
-
 Braun, Matthias, et al. "Simple and efficient construction of static single assignment form." International Conference on Compiler Construction. Springer, Berlin, Heidelberg, 2013.  
 
-Jens Palsberg and Michael I. Schwartzbach. Object-oriented type inference. In Proceedings of OOPSLA'91, ACM SIGPLAN Sixth Annual Conference on Object-Oriented Programming Systems, Languages and Applications, pages 146-161, Phoenix, Arizona, October 1991.  
+## Call Graph Construction
 
 Jeffrey Dean, David Grove, Craig Chambers. Optimization of Object-Oriented Programs Using Static Class Hierarchy Analysis. In Proceedings of ECOOP'95, pages 77-101.  
-
-L. Peter Deutsch and Allan M. Schiffman. Efficient Implementation of the Smalltalk-80 System. In Proceedings of POPL'84, pages 297-302.  
 
 David Bacon and Peter Sweeney. Fast Static Analysis of C++ Virtual Function Calls, In Proceedings of OOPSLA'96, ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages and Applications, pages 324-341, 1996.  
 
 Frank Tip and Jens Palsberg. Scalable Propagation-based Call Graph Construction Algorithms. In Proceedings of OOPSLA'00, ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages and Applications, pages 281-293, Minneapolis, Minnesota, October 2000.  
 
 ## Dynamic Analysis
+
 Nethercote, Nicholas, and Julian Seward. "Valgrind: a framework for heavyweight dynamic binary instrumentation." ACM Sigplan notices. Vol. 42. No. 6. ACM, 2007.  
 
 Saudel, Florent, and Jonathan Salwan. "Triton: A dynamic symbolic execution framework." Symposium sur la sécurité des technologies de l’information et des communications, SSTIC, France, Rennes. 2015.  
@@ -37,6 +36,7 @@ Saudel, Florent, and Jonathan Salwan. "Triton: A dynamic symbolic execution fram
 [Java Path Finder](https://github.com/javapathfinder/jpf-core) is an extensible software analysis framework(basic VM, model checking module, detect concurrency defect, unhandled exception) for Java bytecode.  
 
 ## Pointer Analysis
+
 Nevin Heintze and Olivier Tardieu. Ultra-fast Aliasing Analysis using CLA: A Million Lines of C Code in a Second. In Proceedings of PLDI'01, pages 254-263.  
 
 Hua Yan, Yulei Sui, Shiping Chen, and Jingling Xue. 2018. Spatio-temporal context reduction: a pointer-analysis-based static approach for detecting use-after-free vulnerabilities. In Proceedings of the 40th International Conference on Software Engineering (ICSE ’18). Association for Computing Machinery, New York, NY, USA, 327–337.  
@@ -46,13 +46,17 @@ Yue Li, Tian Tan, Anders Møller, and Yannis Smaragdakis. 2018. Precision-guided
 Tan, Tian, Yue Li, and Jingling Xue. "Efficient and precise points-to analysis: modeling the heap by merging equivalent automata." Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation. 2017.  
 
 ## Taint Analysis
+
 Arzt, Steven, et al. "Flowdroid: Precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for android apps." Acm Sigplan Notices. Vol. 49. No. 6. ACM, 2014.  
 
 Enck, William, et al. "TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones." ACM Transactions on Computer Systems (TOCS) 32.2 (2014): 5.  
 
 Wei, Fengguo, et al. "Jn-saf: Precise and efficient ndk/jni-aware inter-language static analysis framework for security vetting of android applications with native code." Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security. 2018.  
 
+Qi, Zhenxiao, et al. "SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets" Network and Distributed Systems Security (NDSS) Symposium 2021  
+
 ## Symbolic Execution
+
 Godefroid, Patrice, Michael Y. Levin, and David Molnar. "SAGE: whitebox fuzzing for security testing." Communications of the ACM 55.3 (2012): 40-44.  
 
 Cadar, Cristian, and Koushik Sen. "Symbolic execution for software testing: three decades later." Commun. ACM 56.2 (2013): 82-90.  
@@ -68,9 +72,11 @@ Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic E
 Chipounov, Vitaly, et al. "Selective symbolic execution." Proceedings of the 5th Workshop on Hot Topics in System Dependability (HotDep). No. CONF. 2009.  
 
 ## Software Testing
+
 Y. Jia and M. Harman, "An Analysis and Survey of the Development of Mutation Testing," in IEEE Transactions on Software Engineering, vol. 37, no. 5, pp. 649-678, Sept.-Oct. 2011.  
 
 ## Program Repair
+
 Ghanbari, Ali, and Lingming Zhang. "PraPR: Practical Program Repair via Bytecode Mutation." 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019.  
 
 X. Xu, Y. Sui, H. Yan and J. Xue, "VFix: Value-Flow-Guided Precise Program Repair for Null Pointer Dereferences," 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE), Montreal, QC, Canada, 2019, pp. 512-523, doi: 10.1109/ICSE.2019.00063.  
@@ -78,6 +84,7 @@ X. Xu, Y. Sui, H. Yan and J. Xue, "VFix: Value-Flow-Guided Precise Program Repai
 Ming Wen, Junjie Chen, Rongxin Wu, Dan Hao, and Shing-Chi Cheung. 2018. Context-aware patch generation for better automated program repair. In ICSE (ICSE’18). ACM, 1-11.  
 
 ## Loop Analysis
+
 Xie, Xiaofei, et al. "Loopster: static loop termination analysis." Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering. ACM, 2017.  
 
 Xie, Xiaofei, et al. "Proteus: Computing disjunctive loop summary via path dependency analysis." Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering. ACM, 2016.  
@@ -85,26 +92,33 @@ Xie, Xiaofei, et al. "Proteus: Computing disjunctive loop summary via path depen
 Xie, Xiaofei, et al. "S-looper: automatic summarization for multipath string loops." Proceedings of the 2015 International Symposium on Software Testing and Analysis. ACM, 2015.  
 
 ## Reflection Analysis
+
 Li, Li, et al. "Reflection-aware static analysis of android apps." Proceedings of the 31st IEEE/ACM International Conference on Automated Software Engineering. 2016.  
 
 J. Liu, Y. Li, T. Tan and J. Xue, "Reflection Analysis for Java: Uncovering More Reflective Targets Precisely," 2017 IEEE 28th International Symposium on Software Reliability Engineering (ISSRE), Toulouse, 2017, pp. 12-23.  
 
 ## Set Constraints
+
 Jens Palsberg. How to solve set constraints, Oct 1, 2008.  
 
 ## Flow (in)Sensitive Analysis, Context (in)Sensitive Analysis, Information Flow Analysis
+
 John Whaley, Monica S. Lam. Cloning-based context-sensitive pointer alias analysis using binary decision diagrams. In Proceedings of PLDI'04, pages 131-144.  
 
 Pan, Xiang, et al. "FlowCog: context-aware semantics extraction and analysis of information flow leaks in android apps." 27th {USENIX} Security Symposium ({USENIX} Security 18). 2018.  
-
 
 ## Use of Static Program Analysis for Optimization. Flow-directed Method Inlining, Type-safe Method Inlining
 Neal Glew and Jens Palsberg. Type-safe method inlining. Science of Computer Programming, 52:281-306, 2004. Preliminary version in Proceedings of ECOOP'02, European Conference on Object-Oriented Programming, pages 525-544, Springer-Verlag (LNCS 2374), Malaga, Spain, June 2002.  
 
 ## Relationships among Static Analysis and Type System
+
 Nevin Heintze and David McAllester. Linear-time Subtransitive Control Flow Analysis, In Proceedings of PLDI'97, ACM SIGPLAN Conference on Programming Language Design and Implementation, pages 261-272, 1997.  
 
 Jens Palsberg and Patrick M. O'Keefe. A type system equivalent to flow analysis. ACM Transactions on Programming Languages and Systems, 17(4):576-599, July 1995.   Preliminary version in Proceedings of POPL'95, 22nd Annual SIGPLAN-SIGACT Symposium on Principles of Programming Languages, pages 367-378, San Francisco, California, January 1995.  
+
+L. Peter Deutsch and Allan M. Schiffman. Efficient Implementation of the Smalltalk-80 System. In Proceedings of POPL'84, pages 297-302. 
+
+Jens Palsberg and Michael I. Schwartzbach. Object-oriented type inference. In Proceedings of OOPSLA'91, ACM SIGPLAN Sixth Annual Conference on Object-Oriented Programming Systems, Languages and Applications, pages 146-161, Phoenix, Arizona, October 1991. 
 
 ## Mining Big Code
 Raychev, Veselin, Martin Vechev, and Andreas Krause. "Predicting program properties from" big code"." ACM SIGPLAN Notices 50.1 (2015): 111-124.  
