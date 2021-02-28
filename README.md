@@ -56,6 +56,9 @@ Wei, Fengguo, et al. "Jn-saf: Precise and efficient ndk/jni-aware inter-language
 Qi, Zhenxiao, et al. "SpecTaint: Speculative Taint Analysis for Discovering Spectre Gadgets" Network and Distributed Systems Security (NDSS) Symposium 2021  
 
 ## Symbolic Execution
+David Trabish and Noam Rinetzky. 2020. Relocatable addressing model for symbolic execution. In Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020). Association for Computing Machinery, New York, NY, USA, 51–62.  
+
+Frank Busse, Martin Nowack, and Cristian Cadar. 2020. Running symbolic execution forever. In Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020). Association for Computing Machinery, New York, NY, USA, 63–74.  
 
 Godefroid, Patrice, Michael Y. Levin, and David Molnar. "SAGE: whitebox fuzzing for security testing." Communications of the ACM 55.3 (2012): 40-44.  
 
@@ -76,6 +79,10 @@ Chipounov, Vitaly, et al. "Selective symbolic execution." Proceedings of the 5th
 Y. Jia and M. Harman, "An Analysis and Survey of the Development of Mutation Testing," in IEEE Transactions on Software Engineering, vol. 37, no. 5, pp. 649-678, Sept.-Oct. 2011.  
 
 ## Program Repair
+
+Raja Ben Abdessalem, Annibale Panichella, Shiva Nejati, Lionel C. Briand, and Thomas Stifter. 2020. Automated repair of feature interaction failures in automated driving systems. In Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020). Association for Computing Machinery, New York, NY, USA, 88–100.
+
+Yiling Lou, Ali Ghanbari, Xia Li, Lingming Zhang, Haotian Zhang, Dan Hao, and Lu Zhang. 2020. Can automated program repair refine fault localization? a unified debugging approach. In Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2020). Association for Computing Machinery, New York, NY, USA, 75–87.   
 
 Ghanbari, Ali, and Lingming Zhang. "PraPR: Practical Program Repair via Bytecode Mutation." 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE). IEEE, 2019.  
 
@@ -143,6 +150,8 @@ J Yang, C Sar, D Engler. EXPLODE: A lightweight, general system for finding seri
 Dongjie Chen,Yanyan Jiang, Chang Xu, Xiaoxing Ma, and Jian Lu.2020. Testing File System Implementations on Layered Models.In 42nd International Conference on Software Engineering (ICSE ’20), May 23–29, 2020, Seoul, Republic of Korea.
 
 ## Code Difference, Code Embeeding(Representation)
+Thong Hoang, Hong Jin Kang, David Lo, and Julia Lawall. 2020. CC2Vec: distributed representations of code changes. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (ICSE '20). Association for Computing Machinery, New York, NY, USA, 518–529.  
+
 Ke Wang and Zhendong Su. 2020. Blended, precise semantic program embeddings. In Proceedings of the 41st ACM SIGPLAN Conference on Programming Language Design and Implementation(PLDI 2020). Association for Computing Machinery, New York, NY, USA, 121–134. 
 
 Yue Duan, Xuezixiang Li, Jinghan Wang, and Heng Yin, "DeepBinDiff: Learning Program-Wide Code Representations for Binary Diffing", NDSS'2020
@@ -162,7 +171,10 @@ G. Ramalingam. The Undecidability of Aliasing, ACM Transactions on Programming L
 
 Krishnendu Chatterjee, Di Ma, Rupak Majumdar, Tian Zhao, Thomas A. Henzinger, and Jens Palsberg. Stack Size Analysis of Interrupt Driven Software. Information and Computation 194(2):144-174, 2004, special issue dedicated to Paris Kanellakis.  
 
-## Soundness Proofs for Static Analyses
+## Improvements for Static Analyses
+Rijnard van Tonder and Claire Le Goues. 2020. Tailoring programs for static analysis via program transformation. In Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering (ICSE '20). Association for Computing Machinery, New York, NY, USA, 824–834.  
+
+### Soundness for static analysis
 Jens Palsberg. A Proof of the Schroder-Bernstein Theorem, Jul 26, 2008.  
 Jens Palsberg. Closure analysis in constraint form. ACM Transactions on Programming Languages and Systems, 17(1):47-62, January 1995. 
 
